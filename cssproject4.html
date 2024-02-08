@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-image: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .box {
+            height: 60%;
+            width: 60%;
+            background-color: white;
+            display: flex;
+        }
+
+        .box .para {
+            height: 100%;
+            width: 50%;
+            box-sizing: border-box;
+            background-color: rgb(94, 4, 94);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            padding: 35px;
+        }
+
+        .para h1 {
+            color: white;
+        }
+
+        .box img {
+            width: 50%;
+            height: 100%
+        }
+
+        .para p {
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        .parac {
+            display: flex;
+            gap: 60px;
+        }
+
+        .parac h1 {
+            font-size: 1.5rem;
+        }
+        .boxs{
+            height: 60%;
+            width: 0%;
+            background-color: rgba(22, 21, 21, 0.791);
+            position: absolute;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="para">
+                <h1 id="head1">
+                    Get insights that help your business grow
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla perferendis asperiores hic cupiditate
+                    deserunt magni, architecto voluptatem tempora aut suscipit.</p>
+                <div class="parac">
+                    <div class="parac1">
+                        <h1>10K+</h1>
+                        <p>Comments</p>
+                    </div>
+                    <div class="parac2">
+                        <h1>214</h1>
+                        <p>Paid Users</p>
+                    </div>
+                    <div class="parac3">
+                        <h1>12M+</h1>
+                        <p>Views</p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="icon.jpg" alt="icon">
+
+        </div>
+        <div class="boxs"></div>
+    </div>
+</body>
+
+</html>
